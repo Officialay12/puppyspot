@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puppy Spot - Find Your Perfect Companion</title>
+
+  <!-- Preloader Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Fonts - Premium Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Sentient:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ===== CUSTOM ANIMATED PRELOADER ===== -->
+  <div class="preloader">
+    <div class="preloader-container">
+      <div class="preloader-paws">
+        <span class="paw-print">🐾</span>
+        <span class="paw-print">🐾</span>
+        <span class="paw-print">🐾</span>
+        <span class="paw-print">🐾</span>
+        <span class="paw-print">🐾</span>
+      </div>
+      <div class="preloader-text">
+        <span>P</span>
+        <span>U</span>
+        <span>P</span>
+        <span>P</span>
+        <span>Y</span>
+        <span>&nbsp;</span>
+        <span>S</span>
+        <span>P</span>
+        <span>O</span>
+        <span>T</span>
+      </div>
+      <div class="preloader-progress">
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== ANIMATED BACKGROUND ===== -->
+  <div class="animated-bg">
+    <div class="gradient-sphere sphere-1"></div>
+    <div class="gradient-sphere sphere-2"></div>
+    <div class="gradient-sphere sphere-3"></div>
+    <div class="floating-paws">
+      <div class="floating-paw">🐾</div>
+      <div class="floating-paw">🐾</div>
+      <div class="floating-paw">🐾</div>
+      <div class="floating-paw">🐾</div>
+      <div class="floating-paw">🐾</div>
+      <div class="floating-paw">🐾</div>
+      <div class="floating-paw">🐾</div>
+      <div class="floating-paw">🐾</div>
+    </div>
+  </div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <span class="logo-icon">🐕</span>
+        <div class="logo-text">
+          <span class="logo-puppy">Puppy</span>
+          <span class="logo-spot">Spot</span>
+        </div>
+      </div>
+
+      <div class="nav-toggle" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">HOME</a></li>
+        <li><a href="#available" class="nav-link">AVAILABLE PUPPIES</a></li>
+        <li><a href="#how-to-get" class="nav-link">HOW TO GET A PET</a></li>
+        <li><a href="#about" class="nav-link">ABOUT US</a></li>
+        <li><a href="#contact" class="nav-link">CONTACT US</a></li>
+        <li><a href="#policy" class="nav-link">POLICY</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main>
+
+    <!-- HOME / HERO SECTION -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-left" data-aos="fade-right" data-aos-duration="1000">
+            <div class="hero-title-wrapper">
+              <span class="hero-letter">P</span>
+              <div class="hero-word-group">
+                <span class="hero-word">uppy</span>
+                <div class="hero-divider"></div>
+                <span class="hero-word">Spot</span>
+              </div>
+            </div>
+
+            <p class="hero-description">Find your perfect furry companion from our carefully selected puppies, raised
+              with love and ready for their forever home.</p>
+
+            <div class="hero-stats">
+              <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="stat-number" data-target="20">0</div>
+                <div class="stat-label">Happy Puppies<br>Ready for sale</div>
+              </div>
+              <div class="stat-card" data-aos="zoom-in" data-aos-delay="400">
+                <div class="stat-number" data-target="99">0<span class="stat-percent">%</span></div>
+                <div class="stat-label">Success Rate<br>Happy families</div>
+              </div>
+            </div>
+
+            <a href="#available" class="btn-primary">
+              <span>View Our Puppies</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="hero-right" data-aos="fade-left" data-aos-duration="1000">
+            <div class="hero-image-wrapper">
+              <div class="hero-image-shape"></div>
+              <img
+                src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                alt="Happy Golden Retriever Puppy" class="hero-image">
+              <div class="hero-image-accent"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AVAILABLE PUPPIES SECTION -->
+    <section id="available" class="available-puppies">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Available Puppies</h2>
+          <p class="section-subtitle">Choose from our adorable breeds, each with unique personality and charm</p>
+        </div>
+
+        <!-- Filters -->
+        <div class="filters-wrapper" data-aos="fade-up" data-aos-delay="100">
+          <div class="filters">
+            <div class="search-box">
+              <i class="fas fa-search"></i>
+              <input type="text" id="searchInput" placeholder="Search by name or breed...">
+            </div>
+
+            <div class="filter-select">
+              <select id="breedFilter">
+                <option value="">All Breeds</option>
+              </select>
+            </div>
+
+            <div class="filter-select">
+              <select id="priceFilter">
+                <option value="">Any Price</option>
+                <option value="900">Up to $900</option>
+                <option value="1200">$900 - $1,200</option>
+                <option value="1500">$1,200 - $1,500</option>
+                <option value="2000">$1,500 - $2,000</option>
+                <option value="2500">$2,000+</option>
+              </select>
+            </div>
+
+            <button class="btn-reset" id="resetFilters">
+              <i class="fas fa-redo-alt"></i>
+              Reset
+            </button>
+          </div>
+          <span class="results-count" id="resultsCount">20 puppies found</span>
+        </div>
+
+        <!-- Puppies Grid -->
+        <div class="puppies-grid" id="puppiesGrid"></div>
+      </div>
+    </section>
+
+    <!-- HOW TO GET A PET SECTION -->
+    <section id="how-to-get" class="how-to-get">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">How To Get A Pet</h2>
+          <p class="section-subtitle">Four simple steps to bringing home your new family member</p>
+        </div>
+
+        <div class="steps-container" id="stepsContainer"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT US SECTION -->
+    <section id="about" class="about-us">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-left" data-aos="fade-right">
+            <h2 class="section-title">About Us</h2>
+            <p class="about-text">We are dedicated to connecting loving families with healthy, happy puppies. With over
+              15 years of experience, we ensure every puppy is raised with love, properly vaccinated, and ready for
+              their forever home.</p>
+            <p class="about-text">Our mission is to make the process of finding and bringing home a new puppy as joyful
+              and stress-free as possible. We personally know each of our breeders and visit their facilities regularly
+              to ensure the highest standards of care.</p>
+
+            <div class="about-features">
+              <div class="feature" data-aos="fade-up" data-aos-delay="100">
+                <i class="fas fa-check-circle"></i>
+                <span>Health Guaranteed</span>
+              </div>
+              <div class="feature" data-aos="fade-up" data-aos-delay="200">
+                <i class="fas fa-check-circle"></i>
+                <span>Vaccinated</span>
+              </div>
+              <div class="feature" data-aos="fade-up" data-aos-delay="300">
+                <i class="fas fa-check-circle"></i>
+                <span>Microchipped</span>
+              </div>
+              <div class="feature" data-aos="fade-up" data-aos-delay="400">
+                <i class="fas fa-check-circle"></i>
+                <span>Socialized</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-right" data-aos="fade-left">
+            <div class="about-image-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                alt="Happy dog with family" class="about-image">
+              <div class="about-image-badge">
+                <span>15+ Years</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT US SECTION -->
+    <section id="contact" class="contact-us">
+      <div class="container">
+        <div class="contact-content" data-aos="zoom-in">
+          <h2 class="contact-title">Contact Us</h2>
+          <p class="contact-subtitle">Ready to meet your new best friend? Reach out — we'd love to help.</p>
+
+          <div class="contact-methods">
+            <a href="https://wa.me/12566842882" class="contact-method" data-aos="fade-up" data-aos-delay="100"
+              target="_blank">
+              <i class="fab fa-whatsapp"></i>
+              <span>+1 (256) 684-2882</span>
+            </a>
+            <a href="https://t.me/Puppyspot2" class="contact-method" data-aos="fade-up" data-aos-delay="200"
+              target="_blank">
+              <i class="fab fa-telegram"></i>
+              <span>T.me/Puppyspot2</span>
+            </a>
+            <a href="mailto:Puppyspot0p@gmail.com" class="contact-method" data-aos="fade-up" data-aos-delay="300">
+              <i class="far fa-envelope"></i>
+              <span>Puppyspot0p@gmail.com</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- POLICY SECTION -->
+    <section id="policy" class="policy">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Our Policy</h2>
+          <p class="section-subtitle">We're committed to responsible and ethical puppy adoption</p>
+        </div>
+
+        <div class="policy-grid">
+          <div class="policy-card" data-aos="flip-left" data-aos-delay="100">
+            <i class="fas fa-undo-alt policy-icon"></i>
+            <h3>7-Day Health Guarantee</h3>
+            <p>If your puppy has any health issues within 7 days, we'll help with vet costs or exchange.</p>
+          </div>
+          <div class="policy-card" data-aos="flip-left" data-aos-delay="200">
+            <i class="fas fa-truck policy-icon"></i>
+            <h3>Safe Delivery</h3>
+            <p>Professional pet transport available to anywhere in the country with real-time tracking.</p>
+          </div>
+          <div class="policy-card" data-aos="flip-left" data-aos-delay="300">
+            <i class="fas fa-file-medical policy-icon"></i>
+            <h3>Vet Checked</h3>
+            <p>All puppies examined by licensed veterinarians and come with complete medical records.</p>
+          </div>
+          <div class="policy-card" data-aos="flip-left" data-aos-delay="400">
+            <i class="fas fa-heart policy-icon"></i>
+            <h3>Lifetime Support</h3>
+            <p>We're here for you and your puppy for life, with free advice and training support.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo" data-aos="fade-right">
+          <span class="logo-icon">🐕</span>
+          <div class="logo-text">
+            <span class="logo-puppy">Puppy</span>
+            <span class="logo-spot">Spot</span>
+          </div>
+        </div>
+
+        <p class="footer-text" data-aos="fade-up">© 2025 Puppy Spot · Where Puppy Love Begins 🐾</p>
+
+        <div class="footer-social" data-aos="fade-left">
+          <a href="https://wa.me/12566842882" target="_blank" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="https://t.me/Puppyspot2" target="_blank" aria-label="Telegram">
+            <i class="fab fa-telegram"></i>
+          </a>
+          <a href="mailto:Puppyspot0p@gmail.com" aria-label="Email">
+            <i class="far fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
